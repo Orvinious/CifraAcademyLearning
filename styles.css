@@ -1,0 +1,67 @@
+.background{
+  background-color:rgba(75, 74, 74, 0.3);
+  
+}
+.form_auth_block{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612457602_19-p-fon-serii-metall-21.jpg);
+    background-size: cover;
+    border-radius: 80px;
+    
+}
+.form_auth_block_content{
+  padding-top: 15%;
+}
+.form_auth_block_head_text{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+    opacity: 0.7;
+}
+.form_auth_block label{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background: #ffffff;
+    color: #000000;
+    opacity: 0.6;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.form_auth_block input{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 45px;
+  border-radius: 11px;  
+  border:none;
+  outline: none;
+  background: #e0dfdf;
+  
+}
+input:focus {
+  color: #000000;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+.form_auth_button{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    height: 35px;
+    background: #c0bebe;
+    cursor: pointer;
+}
+::-webkit-input-placeholder {color:#3f3f44; padding-left: 10px;} 
+::-moz-placeholder          {color:#3f3f44; padding-left: 10px;} 
+:-moz-placeholder           {color:#3f3f44; padding-left: 10px;}
+:-ms-input-placeholder      {color:#3f3f44; padding-left: 10px;} 
